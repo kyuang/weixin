@@ -11,29 +11,29 @@ $corpId = "wxdfb65973db0deb4d";
 ------------使用示例一：验证回调URL---------------
 */
 
-//$sVerifyMsgSig = $_GET["msg_signature"];
+$sVerifyMsgSig = $_GET["msg_signature"];
 
-//$sVerifyTimeStamp = $_GET["timestamp"];
+$sVerifyTimeStamp = $_GET["timestamp"];
 
-//$sVerifyNonce = $_GET["nonce"];
+$sVerifyNonce = $_GET["nonce"];
 
-//$sVerifyEchoStr = $_GET["echostr"];
+$sVerifyEchoStr = $_GET["echostr"];
 
 
 // 需要返回的明文
 $sEchoStr = "";
 
 $wxcpt = new WXBizMsgCrypt($token, $encodingAesKey, $corpId);
-/*
+
 $errCode = $wxcpt->VerifyURL($sVerifyMsgSig, $sVerifyTimeStamp, $sVerifyNonce, $sVerifyEchoStr, $sEchoStr);
 if ($errCode == 0) {
 	//
 	// 验证URL成功，将sEchoStr返回
-	echo $sEchoStr;
+	echo $sEchoStr;die;
 } else {
 	print("ERR: " . $errCode . "\n\n");
 }
-*/
+
 
 /*
 ------------使用示例二：对用户回复的消息解密---------------
