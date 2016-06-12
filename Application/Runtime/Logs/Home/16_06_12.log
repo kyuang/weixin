@@ -188,3 +188,40 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
 
+[ 2016-06-12T16:08:00+08:00 ] ::1 /weixin_tongshi/index.php/home/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2016-06-12T16:09:47+08:00 ] ::1 /weixin_tongshi/index.php/home/Sample
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+ERR: 无法加载控制器:Sample
+
+[ 2016-06-12T16:09:59+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/Sample
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8] Undefined index: msg_signature D:\WWW\weixin_tongshi\Application\Home\Controller\Sample.php 第 42 行.
+NOTIC: [8] Undefined index: timestamp D:\WWW\weixin_tongshi\Application\Home\Controller\Sample.php 第 44 行.
+NOTIC: [8] Undefined index: nonce D:\WWW\weixin_tongshi\Application\Home\Controller\Sample.php 第 46 行.
+NOTIC: [2] DOMDocument::loadXML(): Empty string supplied as input D:\WWW\weixin_tongshi\Application\Home\Controller\xmlparse.php 第 21 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\xmlparse.php 第 24 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\xmlparse.php 第 25 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
