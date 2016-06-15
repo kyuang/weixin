@@ -63,18 +63,20 @@ if ($errCode == 0) {
 	print("content: " . $content . "\n\n");
 	*/
 	$data = simplexml_load_string($sMsg, 'SimpleXMLElement', LIBXML_NOCDATA);
-file_put_contents('1.txt', json_encode($data));
-	$reply_msg = "<xml>
-	 <ToUserName><![CDATA[{$data->FromUserName}]]></ToUserName>
-	 <FromUserName><![CDATA[{$corpId}]]></FromUserName>
-	 <CreateTime>{$sReqTimeStamp}</CreateTime>
-	 <MsgType><![CDATA[text]]></MsgType>
-	 <Content><![CDATA[{$data->Content}!!!]]></Content>
-	</xml>";
-	$sEncryptMsg = ""; //xml格式的密文
-	$errCode = $wxcpt->EncryptMsg($reply_msg, $sReqTimeStamp, $sReqNonce, $sEncryptMsg);
-	echo $sEncryptMsg;
-
+// file_put_contents('/1.txt', $sReqData);
+    if($data->MsgType == 'text')
+    {
+		$reply_msg = "<xml>
+		 <ToUserName><![CDATA[{$data->FromUserName}]]></ToUserName>
+		 <FromUserName><![CDATA[{$corpId}]]></FromUserName>
+		 <CreateTime>{$sReqTimeStamp}</CreateTime>
+		 <MsgType><![CDATA[text]]></MsgType>
+		 <Content><![CDATA[{$data->Content}!!!]]></Content>
+		</xml>";
+		$sEncryptMsg = ""; //xml格式的密文
+		$errCode = $wxcpt->EncryptMsg($reply_msg, $sReqTimeStamp, $sReqNonce, $sEncryptMsg);
+		echo $sEncryptMsg;
+	}
 } else {
 	print("ERR: " . $errCode . "\n\n");
 	//exit(-1);

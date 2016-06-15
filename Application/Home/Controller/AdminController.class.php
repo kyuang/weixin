@@ -3,6 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 class AdminController extends Controller {
     public function Sample(){
+
        include 'Sample.php';
     }
 
@@ -15,6 +16,14 @@ class AdminController extends Controller {
     }
     public function Sample_lyy(){
        include 'Sample_lyy.php';
+    }
+
+    //发布话题
+    public function addhua()
+    {
+      $url = "https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo?access_token=ACCESS_TOKEN&code=CODE";
+
+      $this->display('addhua');
     }
 
 }

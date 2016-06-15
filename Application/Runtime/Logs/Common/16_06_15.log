@@ -1,0 +1,12 @@
+[ 2016-06-15T19:28:36+08:00 ] ::1 /weixin_tongshi/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-06-15T19:28:53+08:00 ] ::1 /weixin_tongshi/admin/sample
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+ERR: 无法加载模块:Admin
+
