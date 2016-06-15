@@ -24,32 +24,56 @@ class AdminController extends Controller {
       $corpid = 'wxdfb65973db0deb4d';
       $secrect = 'HXOk8frb4AaAjXvNKXNxfMegKvwQCrTVZmmeJt2HIk4mjkDtNILOMLRCF9Fw5OVV';
       // 调用接口凭证 
-      $access_token = getAccessToken($corpid,$secrect);
+      $access_token = $this->getAccessToken($corpid,$secrect);
       $code = $_GET['code'];
       $url = "https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo?access_token=$access_token&code=$code";
-      $res = curl($url,'');
+      $res = $this->curl($url,'');
+      // echo $res;die;
       $userid = json_decode($res)['UserId'];
       $url = "https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=$access_token&userid=$userid";
-      $res = curl($url,'');
+      $res = $this->curl($url,'');
       echo $res;die;
       $user = json_decode($res);
       var_dump($user);die;
     }
 
-    function curl( $url, $sendData )
+    function curl( $url, $sendData)
     {
       $ch = curl_init ();
       curl_setopt ( $ch, CURLOPT_URL, $url );
       curl_setopt ( $ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-            curl_setopt ( $ch, CURLOPT_SSL_VERIFYHOST, FALSE);
+      curl_setopt ( $ch, CURLOPT_SSL_VERIFYHOST, FALSE);
       curl_setopt ( $ch, CURLOPT_POST, 1 );
       curl_setopt ( $ch, CURLOPT_HEADER, 0 );
+      if($sendData!=""){//5.post方式的时候添加数据 
+      curl_setopt($ch,CURLOPT_POSTFIELDS,$data);
+      }
       curl_setopt ( $ch, CURLOPT_RETURNTRANSFER, 1 );
-      curl_setopt ( $ch, CURLOPT_POSTFIELDS, $sendData );
       $return = curl_exec ( $ch );
       curl_close ( $ch );
       return $return;
     }
+
+    function getAccessToken($corpid,$secrect)
+    {
+      session_start();
+      if($_SESSION['access_token'] && $_SESSION['expires_in']+7200>time() ){
+        return $access_token['access_token'];
+        die;
+      }
+      $url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid='.$corpid.'&corpsecret='.$secrect;
+      $data = file_get_contents($url);
+      $access_token = json_decode($data,true);
+      if($access_token['access_token']){
+        $_SESSION['access_token'] = $access_token['access_token'];
+        $_SESSION['expires_in'] = $access_token['expires_in'];
+        return $access_token['access_token'];
+      }else{
+        // 获取异常
+        return $access_token['errmsg'];
+      }
+    }
+
 
 }
 
