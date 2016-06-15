@@ -1,0 +1,17 @@
+[ 2016-06-14T13:36:51+08:00 ] ::1 /weixin_tongshi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.058120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025977s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001726s ]
+

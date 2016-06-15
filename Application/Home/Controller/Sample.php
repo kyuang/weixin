@@ -63,7 +63,7 @@ if ($errCode == 0) {
 	print("content: " . $content . "\n\n");
 	*/
 	$data = simplexml_load_string($sMsg, 'SimpleXMLElement', LIBXML_NOCDATA);
-
+file_put_contents('1.txt', json_encode($data));
 	$reply_msg = "<xml>
 	 <ToUserName><![CDATA[{$data->FromUserName}]]></ToUserName>
 	 <FromUserName><![CDATA[{$corpId}]]></FromUserName>
