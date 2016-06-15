@@ -77,3 +77,11 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
 
+[ 2016-06-15T20:11:51+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+
