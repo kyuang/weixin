@@ -46,7 +46,7 @@ $url = "https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo?access_token=$acces
 echo "<br>";
 echo $access_token;
 $userid = json_decode($res);
-var_dump($userid);die;      
+     
 $userid = $userid->UserId;
       $url = "https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=$access_token&userid=$userid";
       $res = file_get_contents($url);
