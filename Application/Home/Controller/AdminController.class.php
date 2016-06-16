@@ -1,6 +1,10 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+
+$lifeTime = 20 * 60;  // 保存一天 
+session_set_cookie_params($lifeTime); 
+session_start();
 class AdminController extends Controller {
     public function Sample(){
 
@@ -24,11 +28,16 @@ class AdminController extends Controller {
       $corpid = 'wxdfb65973db0deb4d';
       $secrect = 'HXOk8frb4AaAjXvNKXNxfMegKvwQCrTVZmmeJt2HIk4mjkDtNILOMLRCF9Fw5OVV';
       // 调用接口凭证 
-      $access_token = $this->getAccessToken($corpid,$secrect);
+      if(empty($_SESSION['access_token'])
+      {
+        $access_token = $this->getAccessToken($corpid,$secrect);
+        $_SESSION['access_token'] = $access_token;
+      }
+
       $code = $_GET['code'];
+      echo $code;die;
       $url = "https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo?access_token=$access_token&code=$code";
       $res = $this->curl($url,'');
-      // echo $res;die;
       $userid = json_decode($res)['UserId'];
       $url = "https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=$access_token&userid=$userid";
       $res = $this->curl($url,'');

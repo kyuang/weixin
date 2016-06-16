@@ -1,0 +1,38 @@
+[ 2016-06-16T08:16:29+08:00 ] ::1 /weixin_tongshi/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003013s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008578s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003093s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003213s ]
+
+[ 2016-06-16T08:16:39+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 59 行.
+NOTIC: [8] Undefined index: access_token D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 60 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 28 行.
+
+[ 2016-06-16T08:17:06+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 59 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 28 行.
+
