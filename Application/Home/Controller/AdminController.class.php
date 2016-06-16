@@ -52,8 +52,24 @@ $userid = $userid->UserId;
       $res = file_get_contents($url);
       echo $res;
       $user = json_decode($res);
+
+
       //var_dump($user);die;
       $this->display('addhua');  
+  }
+
+  public function tongxun()
+  {
+    $access_token = $_SESSION['access_token'];
+    $url = "https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=$access_token";
+    $bumen = file_get_contents($url);
+    $bumen = json_decode($bumen);
+    $bumenid = $bumen->department[0]->id;
+    echo $bumenid;
+
+    $url = "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist?access_token=$access_token&department_id=$bumenid&status=1";
+    $res = file_get_contents($url);
+    echo $res;
   }
 
   public function show()
