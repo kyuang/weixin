@@ -16,7 +16,7 @@
 	<script src="/weixin_tongshi/Public/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div style='margin: 0 auto;width: 300px;'>
+<div style='margin: 0 auto;width: 60%;'>
 	<form>
 	  <div class="form-group">
 	    <label for="exampleInputEmail1">话题标题</label>
@@ -33,11 +33,21 @@
 	  </div>
 	  <div class="form-group">
 	    <label for="exampleInputFile">选择参与人员</label>
-	    <a href="/weixin_tongshi/index.php/Home/Admin/tongxun"><input type="button" id="button" value="通讯录"></a>
+	    <a href="javascript:;"><input type="button" id="button" value="通讯录"></a>
+	    <div id='tong'></div>
 	  </div>
 	  <button type="submit" class="btn btn-default">保存为待提交</button>
 	  <button type="submit" class="btn btn-default">直接提交</button>
   </form>
 </div>
 </body>
+<script type="text/javascript">
+$(function(){
+	$('#button').click(function(){
+		$.get("/weixin_tongshi/index.php/Home/Admin/tongxun",function(msg){
+			$('#tong').html(msg);
+		});
+	})
+});
+</script>
 </html>
