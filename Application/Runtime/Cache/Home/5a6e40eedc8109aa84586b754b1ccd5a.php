@@ -33,7 +33,7 @@
 	  </div>
 	  <div class="form-group">
 	    <label for="exampleInputFile">选择参与人员</label>
-	    <a href="/weixin_tongshi/index.php/Home/Admin/tongxun"><input type="button" id="button" value="通讯录"></a>
+	    <a href="/weixin/index.php/Home/Admin/tongxun"><input type="button" id="button" value="通讯录"></a>
 	  </div>
 	  <button type="submit" class="btn btn-default">保存为待提交</button>
 	  <button type="submit" class="btn btn-default">直接提交</button>
