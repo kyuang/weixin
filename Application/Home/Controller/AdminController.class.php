@@ -35,7 +35,6 @@ class AdminController extends Controller {
       }
 
       $code = $_GET['code'];
-      echo $code;die;
       $url = "https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo?access_token=$access_token&code=$code";
       $res = $this->curl($url,'');
       $userid = json_decode($res)['UserId'];
