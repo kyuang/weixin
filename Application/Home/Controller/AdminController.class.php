@@ -34,17 +34,17 @@ class AdminController extends Controller {
         $access_token = $this->getAccessToken($corpid,$secrect);
         $_SESSION['access_token'] = $access_token;
       }else{
-	$access_token = $_SESSION['access_token'];
+	      $access_token = $_SESSION['access_token'];
       }
       $code = $_GET['code'];
-echo $code; 
+      echo $code.'<br>'; 
 
 $url = "https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo?access_token=$access_token&code=$code";
       //$res = $this->curl($url,'');
       $res = file_get_contents($url);
       print_r($res);
 echo "<br>";
-echo $access_token;die;
+echo $access_token.'<br>';
       $userid = json_decode($res)['UserId'];
       $url = "https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=$access_token&userid=$userid";
       $res = $this->curl($url,'');
@@ -52,6 +52,11 @@ echo $access_token;die;
       $user = json_decode($res);
       //var_dump($user);die;
       $this->display('addhua');  
+  }
+
+  public function show()
+  {
+    $this->display('addhua');
   }
 
     function curl( $url, $sendData)
