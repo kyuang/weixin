@@ -44,10 +44,12 @@ $url = "https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo?access_token=$acces
       $res = file_get_contents($url);
       print_r($res);
 echo "<br>";
-echo $access_token;die;
-      $userid = json_decode($res)['UserId'];
+echo $access_token;
+      $userid = json_decode($res);
+var_dump($userid);die;      
+$userid = $userid->UserId;
       $url = "https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=$access_token&userid=$userid";
-      $res = $this->curl($url,'');
+      $res = file_get_contents($url);
       echo $res;
       $user = json_decode($res);
       //var_dump($user);die;
