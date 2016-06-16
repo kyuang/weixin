@@ -36,3 +36,45 @@ INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
 NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 59 行.
 NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 28 行.
 
+[ 2016-06-16T08:47:54+08:00 ] 114.249.213.107 /weixin/index.php/home/admin/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+NOTIC: [2] session_start(): open(/tmp/sess_hbie327t3kj8v2c9bqak9aa534, O_RDWR) failed: Permission denied (13) /phpstudy/www/weixin/ThinkPHP/Common/functions.php 第 1263 行.
+
+[ 2016-06-16T08:49:33+08:00 ] 221.221.153.133 /weixin/index.php/home/admin/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [2] session_start(): open(/tmp/sess_hbie327t3kj8v2c9bqak9aa534, O_RDWR) failed: Permission denied (13) /phpstudy/www/weixin/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /phpstudy/www/weixin/Application/Home/Controller/AdminController.class.php 第 7 行.
+ERR: 非法操作:show
+
+[ 2016-06-16T08:49:36+08:00 ] 221.221.153.133 /weixin/index.php/home/admin/show
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [2] session_start(): open(/tmp/sess_hbie327t3kj8v2c9bqak9aa534, O_RDWR) failed: Permission denied (13) /phpstudy/www/weixin/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /phpstudy/www/weixin/Application/Home/Controller/AdminController.class.php 第 7 行.
+ERR: 非法操作:show
+
+[ 2016-06-16T08:49:46+08:00 ] 114.249.213.107 /weixin/index.php/home/admin/addhua?code=7a85a57bc399084f5e4c8a967da51ac5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /phpstudy/www/weixin/Application/Home/Controller/AdminController.class.php 第 7 行.
+NOTIC: [8] A session had already been started - ignoring session_start() /phpstudy/www/weixin/Application/Home/Controller/AdminController.class.php 第 68 行.
+NOTIC: [8] Undefined index: access_token /phpstudy/www/weixin/Application/Home/Controller/AdminController.class.php 第 69 行.
+
