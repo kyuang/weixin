@@ -71,18 +71,16 @@ $userid = $userid->UserId;
     $res = file_get_contents($url);
     $res = json_decode($res);
     
-echo "<table>";
+    echo "<table>";
+    foreach($res->userList as $v){
+    echo "<tr>
+      <td><input type='checkbox' name='userid' id='' value=".{$v->userid}.">{$v->name}</td>
+    </tr>";      
+    }
 
-foreach($res->userList as $v){
-echo "
-<tr>
-  <td><input type='checkbox' name='userid' id='' value=".{$v->userid}.">{$v->name}</td>
-</tr>";      
-}
-
-echo "<input type='checkbox' id='ckall' value='@all'>选择全部";
-echo "<input type='submit' value='确定'>";
-echo "</table>";
+    echo "<input type='checkbox' id='ckall' value='@all'>选择全部";
+    echo "<input type='submit' value='确定'>";
+    echo "</table>";
 
   }
 
