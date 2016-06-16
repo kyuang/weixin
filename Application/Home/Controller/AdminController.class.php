@@ -28,7 +28,7 @@ class AdminController extends Controller {
       $corpid = 'wxdfb65973db0deb4d';
       $secrect = 'HXOk8frb4AaAjXvNKXNxfMegKvwQCrTVZmmeJt2HIk4mjkDtNILOMLRCF9Fw5OVV';
       // 调用接口凭证 
-      if(empty($_SESSION['access_token'])
+      if(empty($_SESSION['access_token']))
       {
         $access_token = $this->getAccessToken($corpid,$secrect);
         $_SESSION['access_token'] = $access_token;
