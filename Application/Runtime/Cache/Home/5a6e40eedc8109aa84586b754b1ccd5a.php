@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>添加话题</title>
 	<!-- 新 Bootstrap 核心 CSS 文件 -->
 	<link rel="stylesheet" href="/weixin_tongshi/Public/bootstrap/css/bootstrap.min.css">
 
@@ -19,24 +19,20 @@
 <div style='margin: 0 auto;width: 300px;'>
 	<form>
 	  <div class="form-group">
-	    <label for="exampleInputEmail1">Email address</label>
-	    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+	    <label for="exampleInputEmail1">话题标题</label>
+	    <input type="email" class="form-control" id="exampleInputEmail1">
 	  </div>
 	  <div class="form-group">
-	    <label for="exampleInputPassword1">Password</label>
-	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+	    <label for="exampleInputPassword1">话题内容</label>
+	    <input type="password" class="form-control" id="exampleInputPassword1" >
 	  </div>
 	  <div class="form-group">
-	    <label for="exampleInputFile">File input</label>
+	    <label for="exampleInputFile">上传图片</label>
 	    <input type="file" id="exampleInputFile">
 	    <p class="help-block">Example block-level help text here.</p>
 	  </div>
-	  <div class="checkbox">
-	    <label>
-	      <input type="checkbox"> Check me out
-	    </label>
-	  </div>
-	  <button type="submit" class="btn btn-default">Submit</button>
+	  <button type="submit" class="btn btn-default">保存为待提交</button>
+	  <button type="submit" class="btn btn-default">直接提交</button>
   </form>
 </div>
 </body>
