@@ -33,12 +33,8 @@
 	  </div>
 	  <div class="form-group">
 	    <label for="exampleInputFile">选择参与人员</label>
-<<<<<<< HEAD
-	    <a href="/weixin/index.php/Home/Admin/tongxun"><input type="button" id="button" value="通讯录"></a>
-=======
 	    <a href="javascript:;"><input type="button" id="button" value="通讯录"></a>
 	    <div id='tong'></div>
->>>>>>> ecb84852db9cf68bd7c3457020de135d9253e4be
 	  </div>
 	  <button type="submit" class="btn btn-default">保存为待提交</button>
 	  <button type="submit" class="btn btn-default">直接提交</button>
@@ -48,7 +44,7 @@
 <script type="text/javascript">
 $(function(){
 	$('#button').click(function(){
-		$.get("/weixin_tongshi/index.php/Home/Admin/tongxun",function(msg){
+		$.get("/weixin/index.php/Home/Admin/tongxun",function(msg){
 			$('#tong').html(msg);
 		});
 	})
