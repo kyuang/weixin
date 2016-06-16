@@ -65,11 +65,22 @@ $userid = $userid->UserId;
     $bumen = file_get_contents($url);
     $bumen = json_decode($bumen);
     $bumenid = $bumen->department[0]->id;
-    echo $bumenid;
+    // echo $bumenid;
 
     $url = "https://qyapi.weixin.qq.com/cgi-bin/user/simplelist?access_token=$access_token&department_id=$bumenid&status=1";
     $res = file_get_contents($url);
-    echo $res;
+    $res = json_decode($res);
+echo "<table>";
+    foreach($res->userList as $v){
+echo <<<EOF
+<tr>
+  <td><input type="checkbox" name="userid" id="" value="{$v->userid}">{$v->name}</td>
+</tr>
+EOF;      
+    }
+echo "<input type='checkbox' id='ckall' value='@all'>选择全部";
+echo "<input type='submit' value='确定'>";
+echo "</table>";
   }
 
   public function show()

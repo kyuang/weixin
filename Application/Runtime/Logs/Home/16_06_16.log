@@ -496,3 +496,33 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000877s ]
 
+[ 2016-06-16T16:21:53+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/tongxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 118 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined property: stdClass::$department D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 67 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 67 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004165s ]
+
+[ 2016-06-16T16:21:57+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/tongxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 118 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined property: stdClass::$department D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 67 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 67 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
