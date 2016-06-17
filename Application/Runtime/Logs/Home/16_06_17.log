@@ -672,3 +672,857 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
 
+[ 2016-06-17T09:04:24+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001255s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 166 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2016-06-17T09:04:35+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/tongxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 166 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002788s ]
+
+[ 2016-06-17T09:04:37+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/tongxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 166 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002569s ]
+
+[ 2016-06-17T09:23:05+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024446s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003468s ]
+
+[ 2016-06-17T09:23:10+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/tongxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002712s ]
+
+[ 2016-06-17T09:23:14+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/tongxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2016-06-17T09:28:28+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001175s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2016-06-17T09:29:11+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2016-06-17T09:30:06+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 157 行.
+NOTIC: [8] Undefined index: access_token D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 158 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001475s ]
+
+[ 2016-06-17T09:30:29+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-06-17T09:32:25+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/tongxun
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001016s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001945s ]
+
+[ 2016-06-17T09:33:12+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002638s ]
+
+[ 2016-06-17T09:35:42+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000757s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-06-17T09:36:14+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2016-06-17T09:36:21+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001595s ]
+
+[ 2016-06-17T09:36:45+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-06-17T09:36:53+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-06-17T09:36:57+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2016-06-17T09:36:59+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+ERR: 无法加载数据库驱动: Think\Db\Driver\
+
+[ 2016-06-17T09:38:23+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2016-06-17T09:38:36+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000887s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2016-06-17T09:38:49+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [2] PDO::__construct(): MySQL server has gone away D:\WWW\weixin_tongshi\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2016-06-17T09:42:47+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 176 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [2] PDO::__construct(): MySQL server has gone away D:\WWW\weixin_tongshi\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2016-06-17T09:46:40+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000955s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 177 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+
+[ 2016-06-17T09:47:15+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 177 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [2] PDO::__construct(): MySQL server has gone away D:\WWW\weixin_tongshi\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2016-06-17T09:49:30+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 179 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [2] PDO::__construct(): MySQL server has gone away D:\WWW\weixin_tongshi\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2016-06-17T09:49:34+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 179 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 39 行.
+NOTIC: [8] Undefined property: stdClass::$UserId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 50 行.
+NOTIC: [2] json_decode() expects parameter 1 to be string, array given D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 76 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2016-06-17T09:49:35+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 179 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [2] PDO::__construct(): MySQL server has gone away D:\WWW\weixin_tongshi\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2016-06-17T09:52:40+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 179 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [2] PDO::__construct(): MySQL server has gone away D:\WWW\weixin_tongshi\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2016-06-17T09:54:35+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 180 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [2] PDO::__construct(): MySQL server has gone away D:\WWW\weixin_tongshi\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2016-06-17T09:54:44+08:00 ] ::1 /weixin_tongshi/index.php/Home/Admin/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 180 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [2] PDO::__construct(): MySQL server has gone away D:\WWW\weixin_tongshi\ThinkPHP\Library\Think\Db\Driver.class.php 第 103 行.
+ERR: SQLSTATE[HY000] [2006] MySQL server has gone away
+
+[ 2016-06-17T16:22:35+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:24:11+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:24:12+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:27:17+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:27:43+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:27:44+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:28:16+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:28:26+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:28:33+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:28:35+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:28:35+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:28:57+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:28:57+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:29:08+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:29:09+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001365s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:29:55+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:30:33+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001277s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:30:34+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:30:34+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+
+[ 2016-06-17T16:31:05+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 238 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\AdminController::__construct(), called in D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php on line 681 and defined D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 12 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\AdminController::__construct(), called in D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php on line 681 and defined D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: appId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: appSecret D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: corpid D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: secrect D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 41 行.
+NOTIC: [2] file_get_contents(access_token.php): failed to open stream: No such file or directory D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 218 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 152 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 208 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 157 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 43 行.
+NOTIC: [2] file_get_contents(access_token.php): failed to open stream: No such file or directory D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 218 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 152 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 208 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 157 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 208 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 234 行.
+NOTIC: [2] file_get_contents(jsapi_ticket.php): failed to open stream: No such file or directory D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 218 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 181 行.
+NOTIC: [2] file_get_contents(access_token.php): failed to open stream: No such file or directory D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 218 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 152 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 208 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 157 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 208 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 187 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2016-06-17T16:31:24+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 238 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [2] Missing argument 1 for Home\Controller\AdminController::__construct(), called in D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php on line 681 and defined D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 12 行.
+NOTIC: [2] Missing argument 2 for Home\Controller\AdminController::__construct(), called in D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php on line 681 and defined D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: appId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: appSecret D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 15 行.
+NOTIC: [8] Undefined variable: corpid D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: secrect D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 41 行.
+NOTIC: [2] file_get_contents(access_token.php): failed to open stream: No such file or directory D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 218 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 152 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 208 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 157 行.
+NOTIC: [8] Undefined index: code D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 43 行.
+NOTIC: [2] file_get_contents(access_token.php): failed to open stream: No such file or directory D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 218 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 152 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 208 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 157 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 208 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 234 行.
+NOTIC: [2] file_get_contents(jsapi_ticket.php): failed to open stream: No such file or directory D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 218 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 181 行.
+NOTIC: [2] file_get_contents(access_token.php): failed to open stream: No such file or directory D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 218 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 152 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 208 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 157 行.
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 208 行.
+NOTIC: [8] Trying to get property of non-object D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 187 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000305s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001726s ]
+
