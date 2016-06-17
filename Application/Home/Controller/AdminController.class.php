@@ -94,7 +94,7 @@ $res = json_decode($res);
     
     echo "<table>";
     foreach($res->userlist as $v){
-<<<<<<< HEAD
+
     echo '<label class="weui_cell weui_check_label" for="s11">
             <div class="weui_cell_hd">
                 <input type="checkbox" class="weui_check" name="checkbox1"  checked="" value="'.$v->userid.'">
@@ -104,15 +104,7 @@ $res = json_decode($res);
                 <p>'.$v->name.'</p>
             </div>
         </label>';     
-=======
-<<<<<<< HEAD
-    echo $v->userid.$v->name;      
-=======
-    echo "<tr>
-      <td><input type='checkbox' name='userid' id='' value=".$v->userid.">$v->name</td>
-    </tr>";      
->>>>>>> 8d1f9d01a13c4c16e362bde7eeed6eba77cf46f5
->>>>>>> 603fe7f3323e1f1b0cbf8eb849c8c8cfde480f04
+
     }
 
     echo "<input type='checkbox' id='ckall' value='@all'>选择全部";
