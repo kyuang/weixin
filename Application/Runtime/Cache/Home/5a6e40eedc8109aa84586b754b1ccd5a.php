@@ -15,6 +15,9 @@
 	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 	<script src="/weixin_tongshi/Public/bootstrap/js/bootstrap.min.js"></script>
 	<script src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
+
+	<link rel="stylesheet" href="/weixin_tongshi/Public/dist/style/weui.css"/>
+    <link rel="stylesheet" href="/weixin_tongshi/Public/dist/example.css"/>
 </head>
 <body>
 <div style='margin: 0 auto;width: 60%;'>

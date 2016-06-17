@@ -15,6 +15,9 @@
 	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 	<script src="__PUBLIC__/bootstrap/js/bootstrap.min.js"></script>
 	<script src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
+
+	<link rel="stylesheet" href="__PUBLIC__/dist/style/weui.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/dist/example.css"/>
 </head>
 <body>
 <div style='margin: 0 auto;width: 60%;'>
@@ -51,8 +54,20 @@ wx.config({
     timestamp: "<?php echo $data['timestamp'] ?>", // 必填，生成签名的时间戳
     nonceStr: "{$data['nonceStr']}", // 必填，生成签名的随机串
     signature: "{$data['signature']}",// 必填，签名，见附录1
-    jsApiList: [] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+    jsApiList: [chooseImage,uploadImage] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
 });
+
+wx.ready(function () {
+    // 在这里调用 API
+	   	wx.chooseImage({
+	    count: 1, // 默认9
+	    sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有
+	    sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
+	    success: function (res) {
+	        var localIds = res.localIds; // 返回选定照片的本地ID列表，localId可以作为img标签的src属性显示图片
+	    }
+	});
+  });
 
 
 

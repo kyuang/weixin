@@ -93,9 +93,15 @@ $userid = $userid->UserId;
     
     echo "<table>";
     foreach($res->userlist as $v){
-    echo "<tr>
-      <td><input type='checkbox' name='userid' id='' value=".$v->userid.">$v->name</td>
-    </tr>";      
+    echo '<label class="weui_cell weui_check_label" for="s11">
+            <div class="weui_cell_hd">
+                <input type="checkbox" class="weui_check" name="checkbox1"  checked="" value="'.$v->userid.'">
+                <i class="weui_icon_checked"></i>
+            </div>
+            <div class="weui_cell_bd weui_cell_primary">
+                <p>'.$v->name.'</p>
+            </div>
+        </label>';     
     }
 
     echo "<input type='checkbox' id='ckall' value='@all'>选择全部";
