@@ -62,22 +62,22 @@ function sendMsg( $url, $sendData )
  */
 function getAccessToken($corpid,$secrect)
 {
-        session_start();
-        if($_SESSION['access_token'] && $_SESSION['expires_in']+7200>time() ){
-                return $access_token['access_token'];
-                die;
-        }
-        $url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid='.$corpid.'&corpsecret='.$secrect;
-        $data = file_get_contents($url);
-        $access_token = json_decode($data,true);
-        if($access_token['access_token']){
-                $_SESSION['access_token'] = $access_token['access_token'];
-                $_SESSION['expires_in'] = $access_token['expires_in'];
-                return $access_token['access_token'];
-        }else{
-                // 获取异常
-                return $access_token['errmsg'];
-        }
+    session_start();
+    if($_SESSION['access_token'] && $_SESSION['expires_in']+7200>time() ){
+            return $access_token['access_token'];
+            die;
+    }
+    $url = 'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid='.$corpid.'&corpsecret='.$secrect;
+    $data = file_get_contents($url);
+    $access_token = json_decode($data,true);
+    if($access_token['access_token']){
+            $_SESSION['access_token'] = $access_token['access_token'];
+            $_SESSION['expires_in'] = $access_token['expires_in'];
+            return $access_token['access_token'];
+    }else{
+            // 获取异常
+            return $access_token['errmsg'];
+    }
 }
 
 
