@@ -52,8 +52,28 @@ $userid = $userid->UserId;
       $res = file_get_contents($url);
       echo $res;
       $user = json_decode($res);
+      
+      $url = "https://qyapi.weixin.qq.com/cgi-bin/get_jsapi_ticket?access_token=$access_token";
+      $jastk = file_get_contents($url);
+      $jsapiTicket = json_decode($jastk)->ticket;
+      $nonceStr = "Wm3WZYTPz0wzccnW";
+      $timestamp = time();
+      $url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+      
+      $string = "jsapi_ticket=$jsapiTicket&noncestr=$nonceStr&timestamp=$timestamp&url=$url";
 
+      $signature = sha1($string);
 
+      $signPackage = array(
+      "appId"     => 'wxdfb65973db0deb4d',
+      "nonceStr"  => $nonceStr,
+      "timestamp" => $timestamp,
+      "url"       => $url,
+      "signature" => $signature,
+      "rawString" => $string
+    );
+      echo json_decode($signPackage);
+      $this->assign('data',$signPackage);
       //var_dump($user);die;
       $this->display('addhua');  
   }
@@ -72,9 +92,9 @@ $userid = $userid->UserId;
     $res = json_decode($res);
     
     echo "<table>";
-    foreach($res->userList as $v){
+    foreach($res->userlist as $v){
     echo "<tr>
-      <td><input type='checkbox' name='userid' id='' value=".{$v->userid}.">{$v->name}</td>
+      <td><input type='checkbox' name='userid' id='' value=".$v->userid.">$v->name</td>
     </tr>";      
     }
 

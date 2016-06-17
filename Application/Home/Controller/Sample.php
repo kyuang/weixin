@@ -45,6 +45,8 @@ $sReqTimeStamp = $_GET["timestamp"];
 
 $sReqNonce = $_GET["nonce"];
 
+$
+
 // post请求的密文数据
 // $sReqData = HttpUtils.PostData();
 
