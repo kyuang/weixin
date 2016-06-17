@@ -13,7 +13,12 @@
 	<script src="/weixin/Public/bootstrap/js/jquery.js"></script>
 
 	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<<<<<<< HEAD
 	<script src="/weixin/Public/bootstrap/js/bootstrap.min.js"></script>
+=======
+	<script src="/weixin_tongshi/Public/bootstrap/js/bootstrap.min.js"></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
+>>>>>>> 8d1f9d01a13c4c16e362bde7eeed6eba77cf46f5
 </head>
 <body>
 <div style='margin: 0 auto;width: 60%;'>
@@ -40,8 +45,21 @@
 	  <button type="submit" class="btn btn-default">直接提交</button>
   </form>
 </div>
+<?php echo $data['timestamp'] ?>
 </body>
+
 <script type="text/javascript">
+wx.config({
+    debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+    appId: 'wxdfb65973db0deb4d', // 必填，企业号的唯一标识，此处填写企业号corpid
+    timestamp: "<?php echo $data['timestamp'] ?>", // 必填，生成签名的时间戳
+    nonceStr: "<?php echo ($data['nonceStr']); ?>", // 必填，生成签名的随机串
+    signature: "<?php echo ($data['signature']); ?>",// 必填，签名，见附录1
+    jsApiList: [] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+});
+
+
+
 $(function(){
 	$('#button').click(function(){
 		$.get("/weixin/index.php/Home/Admin/tongxun",function(msg){
