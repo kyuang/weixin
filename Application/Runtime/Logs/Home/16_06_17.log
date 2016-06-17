@@ -2015,3 +2015,38 @@ NOTIC: [8] Undefined variable: appId D:\WWW\weixin_tongshi\Application\Home\Cont
 NOTIC: [8] Undefined variable: appSecret D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 15 行.
 NOTIC: [8] Undefined variable: appId D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 41 行.
 
+[ 2016-06-17T18:05:21+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 237 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+
+[ 2016-06-17T18:05:46+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 237 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: appid D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 33 行.
+
+[ 2016-06-17T18:05:46+08:00 ] ::1 /weixin_tongshi/index.php/home/admin/addhua
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2048] Declaration of Home\Controller\AdminController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 237 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 7 行.
+NOTIC: [8] Undefined variable: appid D:\WWW\weixin_tongshi\Application\Home\Controller\AdminController.class.php 第 33 行.
+

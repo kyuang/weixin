@@ -9,13 +9,6 @@ class AdminController extends Controller {
     public $appId = 'wxdfb65973db0deb4d';
     public $appSecret = 'HXOk8frb4AaAjXvNKXNxfMegKvwQCrTVZmmeJt2HIk4mjkDtNILOMLRCF9Fw5OVV';
 
-    public function __construct($appId, $appSecret) {
-      parent::__construct();
-      $this->appId = $appId;
-      $this->appSecret = $appSecret;
-    }
-
-
     public function Sample(){
 
        include 'Sample.php';
@@ -37,15 +30,14 @@ class AdminController extends Controller {
     {
       
       // 调用接口凭证
-
-      $access_token = $this->getAccessToken($appId,$secrect);
+      $access_token = $this->getAccessToken();
+      echo $access_token;
 
       $code = $_GET['code'];
 
         echo $code.'<br>';
 
       $userid = $this->getUserid($code);
-      $access_token = $this->getAccessToken();
      
       $url = "https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=$access_token&userid=$userid";
       $res = file_get_contents($url);
@@ -83,7 +75,7 @@ class AdminController extends Controller {
 
   public function tongxun()
   {
-    $access_token = $_SESSION['access_token'];
+    $access_token = $this->getAccessToken();
     $url = "https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=$access_token";
     $bumen = file_get_contents($url);
     $bumen = json_decode($bumen);
