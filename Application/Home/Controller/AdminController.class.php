@@ -6,8 +6,8 @@ $lifeTime = 20 * 60;  // 保存一天
 session_set_cookie_params($lifeTime); 
 session_start();
 class AdminController extends Controller {
-    private $appId = 'wxdfb65973db0deb4d';
-    private $appSecret = 'HXOk8frb4AaAjXvNKXNxfMegKvwQCrTVZmmeJt2HIk4mjkDtNILOMLRCF9Fw5OVV';
+    public $appId = 'wxdfb65973db0deb4d';
+    public $appSecret = 'HXOk8frb4AaAjXvNKXNxfMegKvwQCrTVZmmeJt2HIk4mjkDtNILOMLRCF9Fw5OVV';
 
     public function __construct($appId, $appSecret) {
       parent::__construct();
@@ -36,21 +36,22 @@ class AdminController extends Controller {
     public function addhua()
     {
       
-      // 调用接口凭证 
-    
-      $access_token = $this->getAccessToken($corpid,$secrect);
+      // 调用接口凭证
+
+      $access_token = $this->getAccessToken($appId,$secrect);
 
       $code = $_GET['code'];
 
         echo $code.'<br>';
 
       $userid = $this->getUserid($code);
-     /*
+      $access_token = $this->getAccessToken();
+     
       $url = "https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=$access_token&userid=$userid";
       $res = file_get_contents($url);
       echo $res;
       $user = json_decode($res);
-      */
+      
 
     $signPackage = $this->getSignPackage();
       $this->assign('data',$signPackage);
@@ -63,7 +64,7 @@ class AdminController extends Controller {
   {
     // var_dump($_POST);die;
     $data = [
-    'u_id' => $_SESSION['userid'],
+    'u_id' => 1,
     'title' => I('post.title'),
     'content' => I('post.content'),
     'canyu' => I('post.canyu'),
@@ -71,8 +72,11 @@ class AdminController extends Controller {
     'type' => 1,
     'time' => time()
     ];
+    // var_dump($data);die;
     $User = M("huati");
-    $User->data($data)->add();
+    // var_dump($User);die;
+    // $User->data($data)->add();
+    $User->add($data);
 
   }
 
