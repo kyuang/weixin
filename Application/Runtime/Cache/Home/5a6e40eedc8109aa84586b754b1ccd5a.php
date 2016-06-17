@@ -19,8 +19,8 @@
 	<link rel="stylesheet" href="/weixin_tongshi/Public/dist/style/weui.css"/>
     <link rel="stylesheet" href="/weixin_tongshi/Public/dist/example/example.css"/>
 </head>
-<body>
-<div style='margin: 0 auto;width: 60%;'>
+<body ontouchstart>
+<div class='bd'>
 	<form action="/weixin_tongshi/index.php/Home/Admin/add" method="post">
 	  <div class="form-group">
 	    <label for="">话题标题</label>
@@ -46,7 +46,6 @@
 	  <button type="submit" class="btn btn-default">直接提交</button>
   </form>
 </div>
-
 
 </body>
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>

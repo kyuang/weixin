@@ -90,7 +90,7 @@ class AdminController extends Controller {
     foreach($res->userlist as $v){
 
     echo '<label class="weui_cell weui_check_label" for="s11">
-            <div class="weui_cell_hd">
+            <div class="">
                 <input type="checkbox" class="weui_check" name="canyu[]"  checked="" value="'.$v->userid.'">
                 <i class="weui_icon_checked"></i>
             </div>
