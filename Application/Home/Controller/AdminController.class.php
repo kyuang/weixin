@@ -30,14 +30,14 @@ class AdminController extends Controller {
     {
       // 调用接口凭证
       $access_token = $this->getAccessToken();
-      echo $access_token;
+      // echo $access_token;die;
 
       $code = $_GET['code'];
 
         echo $code.'<br>';
 
       $userid = $this->getUserid($code);
-     
+      $_SESSION['userid'] = $userid;
       $url = "https://qyapi.weixin.qq.com/cgi-bin/user/get?access_token=$access_token&userid=$userid";
       $res = file_get_contents($url);
       echo $res;
@@ -53,22 +53,47 @@ class AdminController extends Controller {
   //话题入库
   public function add()
   {
-    // var_dump($_POST);die;
+
     $data = [
-    'u_id' => 1,
+    'u_id' => $_SESSION['userid'],
     'title' => I('post.title'),
     'content' => I('post.content'),
     'canyu' => I('post.canyu'),
-    'img' => I('post.img'),
-    'type' => 1,
+    'img' => implode(',', I('post.img')),
+    'canyu' => implode(',', I('post.canyu')),
     'time' => time()
     ];
-    // var_dump($data);die;
+    if(isset($_POST['subme'])){
+      $data['type'] = 1;
+    }else{
+      $data['type'] = 0;
+    }
     $User = M("huati");
-    // var_dump($User);die;
-    // $User->data($data)->add();
     $User->add($data);
 
+  }
+
+  public function addfile ()
+  {
+    if (!empty($_FILES)){
+      $type = substr($_FILES['file']['name'],strrpos($_FILES['file']['name'],'.')); 
+      
+           $file_name_final = $_FILES['file']['name'] ;
+           //修改文件名
+           $filename = date('Y-m-d',time()).'-'.rand(100000,999999).$type; 
+           // $file_name_final = preg_replace('/([^.a-z0-1]+)/i', '_', $file_name_final ); 
+           $file_name_final = './public/images/'.$filename;
+           $username = $this->session->username;
+           $time = time();
+      // echo $file_name_final;die; 
+           //开始上传
+           if(move_uploaded_file($_FILES['file']['tmp_name'] ,$file_name_final))
+           {             
+              echo $filename;  
+           }
+       
+          
+        }
   }
 
 
@@ -102,7 +127,7 @@ class AdminController extends Controller {
     }
 
     echo "<input type='checkbox' id='ckall' value='@all'>选择全部";
-    echo "<input type='submit' value='确定'>";
+    echo "<input type='button' value='确定'>";
     echo "</table>";
 
   }

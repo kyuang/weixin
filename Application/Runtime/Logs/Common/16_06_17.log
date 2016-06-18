@@ -70,3 +70,9 @@ INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
 ERR: 无法加载模块:Public
 
+[ 2016-06-17T21:53:13+08:00 ] ::1 /weixin_tongshi/index.php/public/images/2016-06-17-570132.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载模块:Public
+
